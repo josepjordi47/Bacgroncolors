@@ -1,0 +1,147 @@
+body {
+    background-color: saddlebrown;
+    font-style: italic;
+    text-align: center;
+  
+  }
+  
+  h1 {
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+  }
+  .grid-container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Cont00 Cont00 Cont00 Cont00 Cont00 Cont00"
+      "Cont01 Cont02 Cont03 Cont04 Cont05 Cont06"
+      "Cont07 Cont08 Cont09 Cont10 Cont11 Cont12"
+      "Cont13 Cont14 Cont15 Cont16 Cont16 Cont16";
+      text-align: center;
+      border-radius: 5px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 45px;
+      font-style: italic;
+  
+  }
+  
+  .Cont00 { grid-area: Cont00;
+  background-color: darkgreen; }
+  
+  .Cont01 { grid-area: Cont01;
+  background-color: black;
+  color: white; }
+  
+  .Cont02 { grid-area: Cont02;
+  background-color: yellow; }
+  
+  .Cont03 { grid-area: Cont03;
+  background-color: olive; }
+  
+  .Cont04 { grid-area: Cont04;
+  background-color: brown; }
+  
+  .Cont05 { grid-area: Cont05;
+  background-color: pink; }
+  
+  .Cont06 { grid-area: Cont06;
+  background-color: purple; }
+  
+  .Cont07 { grid-area: Cont07;
+  background-color: red; }
+  
+  .Cont08 { grid-area: Cont08;
+  background-color:fuchsia ; }
+  
+  .Cont09 { grid-area: Cont09; 
+  background-color: orange;}
+  
+  .Cont10 { grid-area: Cont10;
+  background-color: white; }
+  
+  .Cont11 { grid-area: Cont11;
+  background-color: lime; }
+  
+  .Cont12 { grid-area: Cont12;
+  background-color: blue; }
+  
+  .Cont13 { grid-area: Cont13;
+  background-color:gold ; }
+  
+  .Cont14 { grid-area: Cont14;
+  background-color: lightblue; }
+  
+  .Cont15 { grid-area: Cont15;
+  background-color: lightgreen; }
+  
+  .Cont16 { grid-area: Cont16; 
+  background-color: aqua;}
+  .container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Cont17 Cont18 Cont19 Cont20 Cont21 Cont22 Cont23 Cont24"
+      "Cont25 Cont26 Cont27 Cont28 Cont29 Cont30 Cont31 Cont32";
+      text-align: center;
+      border-radius: 7px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 35px;
+      font-style: oblique blond;
+  }
+  
+  .Cont17 { grid-area: Cont17; }
+  
+  .Cont18 { grid-area: Cont18;
+  color: yellow; }
+  
+  .Cont19 { grid-area: Cont19;
+  color: olive; }
+  
+  .Cont20 { grid-area: Cont20;
+  color: brown; }
+  
+  .Cont21 { grid-area: Cont21; 
+  color: pink;}
+  
+  .Cont22 { grid-area: Cont22;
+  color: purple; }
+  
+  .Cont23 { grid-area: Cont23;
+  color: red; }
+  
+  .Cont24 { grid-area: Cont24;
+  color: fuchsia; }
+  
+  .Cont25 { grid-area: Cont25;
+  color: orange; }
+  
+  .Cont26 { grid-area: Cont26;
+  color: white; }
+  
+  .Cont27 { grid-area: Cont27;
+  color: lime; }
+  
+  .Cont28 { grid-area: Cont28;
+  color: blue; }
+  
+  .Cont29 { grid-area: Cont29;
+  color: gold; }
+  
+  .Cont30 { grid-area: Cont30;
+    color:lightblue ; }
+  
+  .Cont31 { grid-area: Cont31;
+  color: lightgreen; }
+  
+  .Cont32 { grid-area: Cont32;
+  color: aqua; }
+  
+  
